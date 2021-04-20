@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" autocomplete="off">
+        <fieldset>
+            <legend style="text-align: center;"> User Information</legend>
+        <label for="Firstname">First Name</label>
+        <input type="text" name="fname" placeholder="Enter Firstname"> <br>
+        <label for="Lastname">Last Name</label>
+        <input type="text" name="lname" placeholder="Enter Lastname"> <br>
+        <label for="email">E-Mail</label>
+        <input type="email" name="email" placeholder="Enter E-Mail Address"> <br>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" value="male" checked> Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other <br>
+        <label for="subject">Choose Any Two</label> <br>
+        <input type="checkbox" name="subject" value="web">Web 
+        <input type="checkbox" name="subject" value="graphics">Graphics 
+        <input type="checkbox" name="subject" value="diploma">Diploma 
+        <input type="checkbox" name="subject" value="digital marketting">Digital Marketting  <br>
+        <label for="district">District</label>
+        <select name="distract" id="">
+            <option value="ktm">Kathmandu</option>
+            <option value="bhaktapur">Bhaktapur</option>
+            <option value="lalitpur">Lalitpur</option>
+            <option value="pokhara">Pokhara</option>
+            <option value="butwal">Butwal</option>
+            <option value="biratnagar">Biratnagar</option>
+            <option value="dhadhing">Dhadhing</option> 
+        </select> <br>
+        <label for="dob">Date Of Birth</label>
+        <input type="date" name="dob"> <br>
+        <label for="age">Age</label>
+        <input type="number" name="age" placeholder="age"> <br>
+        <label for="contact">Contact Number</label>
+        <input type="text" name="contact" minlength="7" maxlength="10" required>
+        <label for="file">Choose Image</label> <br>
+        <input type="file" name="image" accept="image/*"> <br>
+        <label for="password">Password</label> <br>
+        <input type="password" name="pass" placeholder="passowrd">
+        <label for="msg">Message</label> <br>
+        <textarea name="msg" id="" cols="30" rows="10" placeholder="Message....."></textarea>
+        <input type="submit" name="submit" value="Register">
+        <input type="reset" value="Reset">
+    </fieldset>    
+
+    </form>
+</body>
+</html>
